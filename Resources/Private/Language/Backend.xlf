@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-09-19T09:11:39Z" product-name="cre_pagetreewidth">
+        <header/>
+        <body>
+            <trans-unit id="pagetreewidth">
+                <source>Width of the page tree section</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

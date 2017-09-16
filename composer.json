@@ -1,0 +1,32 @@
+{
+  "name": "crealistiques/cre-pagetreewidth",
+  "type": "typo3-cms-extension",
+  "description": "Set page tree width in user settings",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "backend"
+  ],
+  "homepage": "http://crealistiques.de",
+  "authors": [
+    {
+      "name": "Steffen Wargalla",
+      "role": "Developer",
+      "homepage": "http://crealistiques.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "typo3/cms-core": "8.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crealistiques\\CrePagetreewidth\\": "Classes"
+    }
+  },
+  "replace": {
+    "cre-pagetreewidth": "self.version"
+  }
+}
