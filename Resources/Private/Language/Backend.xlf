@@ -4,7 +4,10 @@
         <header/>
         <body>
             <trans-unit id="pagetreewidth">
-                <source>Width of the page tree section</source>
+                <source>Width of the page/filelist tree (in px)</source>
+            </trans-unit>
+            <trans-unit id="dialogFlexibleWidth">
+                <source>Width of page/filelist tree should be flexible in link and file browser dialogs</source>
             </trans-unit>
         </body>
     </file>
