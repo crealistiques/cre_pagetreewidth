@@ -28,7 +28,7 @@ please go to the user settings tab "Edit and Advanced functions" and set your pi
 ### Link / File Browser dialog window ###
 The second option in the user settings, called **"Width of page/filelist tree should be flexible in link and file browser dialogs"**, 
 if activated, makes the width of the page/filelist tree section in modal and popup dialog windows more flexible. Within certain constraints 
-the width now adapts to the tree content while preventing of ever getting wider than 66% of the width of the dialog. In combination with 
+the width now adapts to the tree content while preventing of ever getting wider than 66% of the width of the dialog on large screens. In combination with 
 User TSConfig option "popupWindowSize" you could fully benefit from this option by setting a larger popup screen size – 
 Typo3 default is 800x600 which might be too small on large screens.
  
