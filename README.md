@@ -41,3 +41,6 @@ options.popupWindowSize = 1600x1200
 ```
 
 depending on the screen size you are blessed with.
+
+### RTE HTML Area Compatibility ###
+For those who are still using rtehtmlarea with Typo3 8 it might come in handy that modal dialogs opened by RTE HTML Area now get properly sized for optimal page/file tree dispaly, too.

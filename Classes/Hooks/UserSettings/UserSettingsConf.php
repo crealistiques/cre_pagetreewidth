@@ -66,6 +66,18 @@ class UserSettingsConf
                         max-width: 66%
                     }
                 }
+                
+                /* Enlarge content of rtehtmlarea modals 100vw width which is particularly useful while using the link dialog */
+                .t3js-modal-body.modal-body .htmlarea-window {
+                    min-width: 100vw;
+                } 
+                /* For the former fix to work we need to change sizing of the modal content container in general, too! */
+                @media (min-width: 600px) {
+                    .modal-size-default .modal-content {
+                        width: auto;
+                        min-width: 600px;
+                    }
+                }
         ';
         }
 
