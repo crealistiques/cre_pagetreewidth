@@ -27,6 +27,6 @@
     }
   },
   "replace": {
-    "cre-pagetreewidth": "self.version"
+    "cre_pagetreewidth": "self.version"
   }
 }
